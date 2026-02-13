@@ -1,26 +1,21 @@
-# Retro Top-Down Shooter
-
-A fast-paced, arcade-style top-down shooter built with **MonoGame**. Dodge, shoot, and survive through waves of enemies in procedurally generated arenas. Battle epic bosses, unlock new weapons, and climb the leaderboards.
-
-## Features
-
-- **Retro pixel art** with smooth animations
-- **Procedural arenas** for endless replayability
-- **Boss fights** and dynamic enemy waves
-- **Unlockable weapons** and power-ups
-- **Leaderboards** to track high scores
-- **Open-source** and mod-friendly
-
-## Getting Started
-
-### Prerequisites
-
-- [.NET SDK](https://dotnet.microsoft.com/download)
-- [MonoGame](https://www.monogame.net/downloads/)
-
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/axelpolleux/maarvinn
-   ```
+maarvinn/
+├── .gitignore (already present)
+├── README.md (already present, expand later)
+├── CMakeLists.txt (or Makefile/other build system)
+├── docs/ (design docs, technical specs)
+├── external/ (third-party libraries, e.g., SDL2, SFML, ECS)
+├── src/
+│ ├── core/ (game loop, window management, input)
+│ ├── entities/ (player, NPCs, enemies)
+│ ├── systems/ (ECS systems: physics, rendering, AI)
+│ ├── components/ (ECS components: transform, sprite, health)
+│ ├── scenes/ (levels, menus, cutscenes)
+│ ├── utils/ (helpers: math, logging, file I/O)
+│ └── main.cpp (entry point)
+├── assets/
+│ ├── sprites/ (PNGs, animations)
+│ ├── audio/ (SFX, music)
+│ ├── maps/ (Tiled TMX/JSON, or custom format)
+│ └── fonts/ (TTF/OTF)
+├── tests/ (unit/integration tests)
+└── scripts/ (build/deploy automation)

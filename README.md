@@ -22,5 +22,5 @@ A fast-paced, arcade-style top-down shooter built with **MonoGame**. Dodge, shoo
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/retro-topdown-shooter.git
+   git clone https://github.com/axelpolleux/maarvinn
    ```
